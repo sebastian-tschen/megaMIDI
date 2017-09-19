@@ -1,0 +1,59 @@
+
+print env.Dump()
+
+
+megaMidi
+lib
+readme.txt
+scripts
+dummy
+uploadToArduino.py
+src
+main.cpp
+.gitignore
+.travis.yml
+platformio.ini
+untitled
+untitled
+MIDI.h
+midi_Defs.h
+main.cpp
+platformio.ini
+dummy
+Settings
+uploadToArduino.py
+1
+1
+2
+
+¬
+print env.Dump()
+1.7 s
+platformio run --target upload
+'_LIBDIRFLAGS': '$( ${_concat(LIBDIRPREFIX, LIBPATH, LIBDIRSUFFIX, __env__, RDirs, TARGET, SOURCE)} $)',
+'_LIBFLAGS': '-Wl,--start-group ${_stripixes(LIBLINKPREFIX, LIBS, LIBLINKSUFFIX, LIBPREFIXES, LIBSUFFIXES, __env__)} -Wl,--end-group',
+'_RPATH': '${_concat(RPATHPREFIX, RPATH, RPATHSUFFIX, __env__)}',
+'_SHLIBSONAME': '${ShLibSonameGenerator(__env__,TARGET)}',
+'_SHLIBVERSIONFLAGS': '$SHLIBVERSIONFLAGS -Wl,-soname=$_SHLIBSONAME',
+'__DRPATH': '$_DRPATH',
+'__DSHLIBVERSIONFLAGS': '${__libversionflags(__env__,"DSHLIBVERSION","_DSHLIBVERSIONFLAGS")}',
+'__LDMODULEVERSIONFLAGS': '${__libversionflags(__env__,"LDMODULEVERSION","_LDMODULEVERSIONFLAGS")}',
+
+'__RPATH': '$_RPATH',
+'__SHLIBVERSIONFLAGS': '${__libversionflags(__env__,"SHLIBVERSION","_SHLIBVERSIONFLAGS")}',
+'__libversionflags': <function __libversionflags at 0x104d4c230>,
+'_concat': <function _concat at 0x104d46f50>,
+'_defines': <function _defines at 0x104d4c1b8>,
+'_stripixes': <function _stripixes at 0x104d4c0c8>,
+'toolpath': [ '/Users/behrens/.atom/packages/platformio-ide/penv/lib/python2.7/site-packages/platformio/builder/tools']}
+{'PIOFRAMEWORK': 'YXJkdWlubw==', 'PLATFORM_MANIFEST': 'L1VzZXJzL2JlaHJlbnMvLnBsYXRmb3JtaW8vcGxhdGZvcm1zL2F0bWVsYXZyL3BsYXRmb3JtLmpzb24=', 'LIB_DEPS': 'TUlESSBMaWJy
+YXJ5', 'PIOPLATFORM': 'YXRtZWxhdnI=', 'PIOENV': 'bWVnYWF0bWVnYTI1NjA=', 'PIOVERBOSE': '0', 'BOARD': 'bWVnYWF0bWVnYTI1NjA=', 'EXTRA_SCRIPT': 'c2NyaXB0cy91cGxvYWRUb0
+FyZHVpbm8ucHk=', 'BUILD_SCRIPT': 'L1VzZXJzL2JlaHJlbnMvLnBsYXRmb3JtaW8vcGxhdGZvcm1zL2F0bWVsYXZyL2J1aWxkZXIvbWFpbi5weQ==', 'UPLOAD_PORT': 'c2NyaXB0cy9kdW1teQ=='}
+Looking for upload port...
+Use manually specified: scripts/dummy
+Uploading .pioenvs/megaatmega2560/firmware.hex
+
+========================= [SUCCESS] Took 1.32 seconds =========================
+
+PlatformIO: BuildFile 0Project 0No Issuesscripts/dummy2:17
+LFUTF-8Plain Text2 updates
